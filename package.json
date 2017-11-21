@@ -9,8 +9,7 @@
   "author": "d-dog@d-dog.se",
   "license": "MIT",
   "peerDependencies": {
-    "react": "*",
-    "dom-confetti": "github:freemanon/dom-confetti"
+    "react": "*"
   },
   "devDependencies": {
     "babel": "^6.23.0",
@@ -25,6 +24,9 @@
     "react-dom": "^15.5.4",
     "react-tap-event-plugin": "^2.0.1",
     "webpack": "^2.3.3"
+  },
+  "dependencies": {
+    "dom-confetti": "github:freemanon/react-dom-confetti"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
